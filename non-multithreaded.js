@@ -3,15 +3,11 @@ import fs from 'fs'
 
 async function main(){
 
-    const urls = [
-       'https://www.exoticuganda.com/',
-       'https://www.ugandahotgirls.com/',
-       'https://www.ugsexygirls.com/',
-       'https://bedescorts.com/escorts/uganda/',
-       'https://www.kampalahot.com/',
-       'https://pearlescorts.com/',
-       'https://ugandacitybabes.com/'
-    ]
+  const urls = [
+    'https://blog.logrocket.com/',
+    'https://jasonwatmore.com/',
+    'https://www.smashingmagazine.com/'
+  ];
 
     fs.writeFileSync('./metas.txt', '')
 
