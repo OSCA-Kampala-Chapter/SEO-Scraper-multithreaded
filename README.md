@@ -10,6 +10,7 @@
 👤 **Haki Fred**
 
 ## How to use
-*** node index.js
+if you have a lot of list of websites, run the multithreaded version. with node multithreaded.js <br />
+*** to run the non-multithreaded version simply run node non-multithreaded.js
 ## Main use 
 scrape seo from array of websites
