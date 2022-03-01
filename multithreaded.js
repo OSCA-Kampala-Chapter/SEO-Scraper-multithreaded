@@ -40,7 +40,7 @@ function run(data) {
     dataString += data.toString();
   });
   py.stdout.on('end', function(){
-    console.log('Sum of numbers=',dataString);
+    console.log(dataString);
   });
 
   py.stdin.write(JSON.stringify(data));
